@@ -1,0 +1,8 @@
+# Never commit real SCIM configuration or secrets.
+.env
+
+# Deletion snapshots may contain user PII.
+kiro-scim-deleted-*.json
+
+# Build output.
+/dist/
